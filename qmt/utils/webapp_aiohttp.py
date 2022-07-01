@@ -23,6 +23,7 @@ def _findChromium():
         'chromium-browser',
         'chromium',
         'google-chrome',
+        'brave-browser',
     ]
     for path in candidates:
         if shutil.which(path) is not None:
